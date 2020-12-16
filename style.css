@@ -2,7 +2,8 @@
 
 body{
     max-width: 1280px;
-    margin: 0 auto;   
+    margin: 0 auto;  
+    font-family: 'Roboto', sans-serif; 
 }
 html{
     scroll-behavior: smooth; 
@@ -21,10 +22,9 @@ nav{
     justify-content: space-between;
 }
 .name-of-firm{
-    font-size: 18px; 
-    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem; 
     font-weight: 700;
-    color: white; 
+    color:  #FFFFFF; 
     line-height: 50px;
     margin-left: 10px;
 }
@@ -34,10 +34,9 @@ li{
 }
 li a{
     text-decoration: none; 
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
-    color: white;
+    color: #FFFFFF;
     line-height: 50px;
     transition: 1s;    
 }
@@ -45,16 +44,14 @@ li a{
     cursor: not-allowed;
 }
 h1{
-    color: rgb(255, 255, 255);
-    font-size: 36px;
-    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 2rem;
     font-weight: 700;
     margin: 40px 10px; 
 }
 h4{
-    color: rgb(255, 255, 255);
-    font-size: 22px;
-    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.4rem;
     font-weight: 700;
     margin: 40px 10px; 
 }
@@ -64,16 +61,14 @@ button{
     background: transparent;
     width: 150px;
     height: 30px;
-    font-size: 18px;
-    font-family: 'Roboto',sans-serif;
+    font-size: 1.1rem;
     font-weight: 700;
     color: #FFFFFF;
     margin: 40px 10px; 
     transition: 1s;    
 } 
 h2{
-    font-size: 36px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
     font-weight: 700;
     color: #152D41;
     margin: 40px 10px; 
@@ -88,23 +83,22 @@ img{
     margin: 20px 10px; 
 }
 h3{
-    color: rgb(255, 255, 255);
-    font-size: 36px;
-    font-family: 'Roboto';
+    color: #FFFFFF;
+    font-size: 2rem;
     text-justify: center;
+    font-weight: 700;
+    margin: 40px 10px;
+    padding-top: 40px;
 }
 p{
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
 }
 small{
-    font-size: 14px;
-    font-family: 'Roboto',sans-serif;
+    font-size: 0.9rem;
     font-weight: 300; 
 }
 .container1{
-    max-width: 1280px;
     height: 100vh;
     background-image: url("/images/background-image.jpg"); 
     background-position: center center;
@@ -125,25 +119,22 @@ small{
     justify-content: center;
 } 
 #about-us{
-    max-width: 1280px;
     height:100%;
 }
 .description-employee1{
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
     text-justify: center;
     margin: 60px 10px; 
 }
 .description-employee2{
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
     text-justify: center;
     margin: 60px 10px; 
 }
+
 .container2{
-    max-width: 1280px;
     background-color: #405D78;
 }
 .boxes{
@@ -178,20 +169,18 @@ small{
     position: relative;
     bottom: 100px;
     right: 60px;
-}
+    }
 footer{
-    max-width: 1280px;
     height: 80px;
-    background-color:  #4E4E4E;
+    background-color: #4E4E4E;
 }
 .container3{
-     display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }   
 .copyright{
     font-size: 20px; 
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #F1F1F1;
     margin: 0 10px;
@@ -199,7 +188,7 @@ footer{
 }
 .icons{
     max-width: 80px;
-    font-size: 32px;
+    font-size: 2rem;
     margin: 0 20px;
     line-height: 80px;
  }
@@ -216,14 +205,14 @@ footer{
 }
 @media only screen and (min-width:320px) and (max-width: 768px){
     .name-of-firm{
-        font-size: 20px;
+        font-size: 1.3rem;
     }
 }
 @media only screen and (min-width:320px) and (max-width:992px){
     h2{
         text-align: center; 
         margin: 40px;
-        font-size: 38px;    
+        font-size: 2.8rem;    
    } 
 }
 @media only screen and (min-width:992px) and (max-width:1680px){
@@ -245,33 +234,20 @@ footer{
         align-items: center;
     }
 }
-@media only screen and (min-width:320px) and (max-width:992px){
-    .employee{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+@media only screen and (min-width:992px) and (max-width:1680px){
+    .description-employee2{
+        direction: rtl;
     }
-}  
+}
 @media only screen and (min-width:320px) and (max-width:992px){
     img{
         width: 220px;
         height: 220px;
     }
 } 
-@media only screen and (min-width:992px) and (max-width:1680px){
-    .description-employee2{
-        direction: rtl; 
-    }
-}
 @media only screen and (min-width:320px) and (max-width:576px){
-    .description-employee1{
-        font-size: 16px;
-        text-justify: center;
-    }
-}
-@media only screen and (min-width:320px) and (max-width:576px){
-    .description-employee2{
-        font-size: 16px;
+    .description-employee{
+        font-size: 1rem;
         text-justify: center;
     }
 }
@@ -298,7 +274,7 @@ footer{
     h3{
         text-align: center; 
         margin: 10px; 
-        font-size: 26px;   
+        font-size: 1.7rem;   
    }   
 }
 @media only screen and (min-width: 768px){
@@ -336,23 +312,16 @@ footer{
     footer{
         height: 140px;
     }
-}
-@media only screen and (min-width: 320px) and (max-width: 578px){
     .copyright{
         line-height: 40px;
         text-align: center;
     }
-}
-@media only screen and (min-width: 320px) and (max-width: 578px){
     .icons{
         line-height: 40px;
     }
-}
-@media only screen and (min-width: 320px) and (max-width: 578px){
     .container3{
         justify-content: center;
         align-items: center;
     }
 }
-
 
